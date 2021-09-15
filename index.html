@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Sabor-Chalaco</title>
+    <link rel="shortcut icon" href="/assets/img/apple-icon.png">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="apple-touch-icon" href="assets/img/apple-icon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!--     <link href="assets/css/bootstrap.min.css" rel="stylesheet"> -->
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+    <!-- <link href="assets/css/boxicon.min.css" rel="stylesheet"> -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/estilos.css">
+</head>
+<!-----
+.text-primary  		azul
+.text-secondary		gris
+.text-success		verde
+.text-danger		rojo
+.text-warning		amarillo
+.text-info			celeste
+.text-light			blanco
+.text-dark			negro
+.text-muted			gris oscuro
+.text-white			gris claro
+-->
+<!------------------------------------------------------------------ Fin del  HEAD -->
+
+<body>
+    <nav id="main_nav" class="navbar navbar-expand-lg navbar-light bg-white" style="padding-top:1.5rem; padding-bottom: 1.5rem;">
+        <div class="container d-flex justify-content-between align-items-center">
+            <a class="navbar-brand h1" href="index.html">
+                <i class='bx bx-buildings bx-sm text-white'></i>
+                <span class="text-white h4">Sabor-</span><span class="text-light h4">Chalaco</span></a>
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbar-toggler-success" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon">
+                </span>
+            </button>
+            <!------------------------------------------- Opciones del Menu		-->
+            <div class="align-self-center collapse navbar-collapse flex-fill  d-lg-flex justify-content-lg-between"
+                id="navbar-toggler-success">
+                <div class="flex-fill mx-xl-3 mb-2">
+                    <!--	  mx=para clases que establecen tanto *-lefty*-right-->
+                    <ul class="nav navbar-nav d-flex justify-content-end mx-xl-2 text-center text-dark">
+                        <!--   .navbar-nav para una navegación ligera y de altura completa 
+                                					   (incluida la compatibilidad con menús desplegables).-->
+                        <!-- <li class="nav-item">
+                            <a class="nav-link btn-outline-primary rounded-pill px-3 text-info"
+                                href="index.html">Home</a>
+                        </li> -->
+                      <!--   <li class="nav-item">
+                            <a class="nav-link btn-outline-primary rounded-pill px-3 text-info" href="about.html">Sobre
+                                Nosotros</a>
+                        </li> -->
+                        <!--   <li class="nav-item">
+                            <a class="nav-link btn-outline-primary rounded-pill px-3 text-info"
+                            href="pricing.html">Precios</a>
+                        </li> -->
+                       <!--  <li class="nav-item">
+                            <a class="nav-link btn-outline-primary rounded-pill px-3 text-info"
+                                href="work.html">Trabajos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link btn-outline-primary rounded-pill px-3 text-info"
+                                href="contact.html">Contáctanos</a>
+                        </li> -->
+                    </ul>
+                </div>
+
+                <!---------------------------------------------------------Fin de las opciones del menu
+        ------------------------------------------------------------ Inicio de los iconos del menu-->
+                <div class="navbar align-self-center d-flex">
+ <!--                    <a class="nav-link" href="#"><i class='bx bx-bell bx-sm bx-tada-hover text-info'></i></a>
+                    <a class="nav-link" href="#"><i class='bx bx-cog bx-sm text-info'></i></a> -->
+                    <!-- <a class="nav-link" href="login.html"><i class='bx bx-user-circle bx-sm text-info'></i></a> -->
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!----------------------------------------------------------- Fin de los iconos del menu-->
+
+    <!-- Close Header -->
+    <!----------------------------------------------------------- Fin del Header-->
+
+    <div class="banner-wrapper bg-light">
+        <div id="index_banner" class="banner-vertical-center-index container-fluid pt-5">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
+                    <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
+                    <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+
+                        <div class="py-5 row d-flex align-items-center">
+                            <div class="banner-content col-lg-8 col-8 offset-2 m-lg-auto text-left py-5 pb-5">
+                                <img src="/assets/img/burguerConPapas.jpg" class="d-block w-100" alt="burguer" />
+                            </div>
+                        </div>
+
+                    </div>
+                    <!----------------------------------------------------------- Nuevo ITem del Carrousel-->
+
+                    <div class="carousel-item">
+
+                        <div class="py-5 row d-flex align-items-center">
+                            <div class="banner-content col-lg-8 col-8 offset-2 m-lg-auto text-left py-5 pb-5">
+                                <img src="https://www.peru.travel/Contenido/General/Imagen/pe/258/1.1/desayunos-peruanos.jpg" class="d-block w-100" alt="burguer" />
+
+                                <!--role="button" indica que un boton no apunta a una url sino que hace otra cosa-->
+                            </div>
+                        </div>
+
+                    </div>
+                    <!----------------------------------------------------------- Nuevo ITem del Carrousel-->
+                    <div class="carousel-item">
+
+                        <div class="py-5 row d-flex align-items-center">
+                            <div class="banner-content col-lg-8 col-8 offset-2 m-lg-auto text-left py-5 pb-5">
+                                <img src="https://static3.abc.es/media/bienestar/2020/09/17/quinoa-ketG--1200x630@abc.jpg" class="d-block w-100" alt="burguer">
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <!-------------------------------------------------------Flechas del carrousel   -->
+                <a class="carousel-control-prev text-decoration-none" href="#carouselExampleIndicators" role="button"
+                    data-bs-slide="prev">
+                    <i class='bx bx-chevron-left'></i>
+                    <span class="visually-hidden">Ant.</span>
+                </a>
+                <a class="carousel-control-next text-decoration-none" href="#carouselExampleIndicators" role="button"
+                    data-bs-slide="next">
+                    <i class='bx bx-chevron-right'></i>
+                    <span class="visually-hidden">Prox.</span>
+                </a>
+            </div>
+            <!-- bx-chevron-right y left son las puntas de flecha del carrousel -->
+            <!-- End slider -->
+
+        </div>
+    </div>
+    <!-- End Banner Hero -->
+
+    <!-- Start Service -->
+    <section class="service-wrapper py-3">
+        <div class="container-fluid pb-3">
+            <div class="row">
+                <h2 class="h2 text-center col-12 py-5 semi-bold-600 "></h2>
+                <div class="service-header col-2 col-lg-3 text-end light-300">
+                    <i class='bx bx-gift h3 mt-1'></i>
+                </div>
+                <div class="service-heading col-10 col-lg-9 text-start float-end light-300">
+                    <h2 class="h3 pb-4 typo-space-line">Tus Antojos se harán realidad.</h2>
+                </div>
+            </div>
+            <p class="service-footer col-10 offset-2 col-lg-9 offset-lg-3 text-start pb-3 text-muted px-2">
+                No busques más lugares, acá encontrarás lo que buscas.
+            </p>
+        </div>
+<!-- 
+        <div class="service-tag py-5" id="bg_menu">
+            <div class="col-md-12">
+                <ul class="nav d-flex justify-content-center">
+                    <li class="nav-item mx-lg-4">
+                        <a class="filter-btn nav-link btn-outline-primary active shadow rounded-pill px-4 
+						light-300 text-info" href="#" data-filter=".project">Todo</a>
+                        <!-- btn-outline = boton transparente 
+                    </li>
+                    <li class="nav-item mx-lg-4">
+                        <a class="filter-btn nav-link btn-outline-primary rounded-pill px-4 light-300 text-info"
+                            href="#" data-filter=".hamburguesa">Hamburguesas</a>
+                    </li>
+                    <li class="filter-btn nav-item mx-lg-4">
+                        <a class="filter-btn nav-link btn-outline-primary rounded-pill px-4 light-300 text-info"
+                            href="#" data-filter=".pasta">Pastas</a>
+                    </li>
+                    <li class="nav-item mx-lg-4">
+                        <a class="filter-btn nav-link btn-outline-primary rounded-pill px-4 light-300 text-info"
+                            href="#" data-filter=".parrilla">Parrilla</a>
+                    </li>
+                </ul>
+            </div>
+        </div> -->
+
+    </section>
+
+    <!-- <section class="container overflow-hidden py-5">
+        <div class="row gx-5 gx-sm-3 gx-lg-5 gy-lg-5 gy-3 pb-3 projects"> 
+
+            <!-- Comienzan los trabajos recientes -->
+          <!--   <div class="col-xl-3 col-md-4 col-sm-6 project parrilla">
+                <a href="#" class="service-work card border-0 text-white shadow-sm overflow-hidden mx-5 m-sm-0">
+                    <img class="service card-img" src="./assets/img/bifes.jpg" alt="Card image">
+                    <div class="service-work-vertical card-img-overlay d-flex align-items-end">
+                        <div class="service-work-content text-left text-light">
+                            <!--      <span class="btn btn-outline-light rounded-pill mb-lg-3 px-lg-4 light-300">UI/UX diseño</span> 
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing</p>
+                        </div>
+                    </div>
+                </a>
+            </div> -->
+            <!-- End Recent Work -->
+
+            <!-- Start Recent Work -->
+            <!-- <div class="col-xl-3 col-md-4 col-sm-6 project hamburguesa">
+                <a href="#" class="service-work card border-0 text-white shadow-sm overflow-hidden mx-5 m-sm-0">
+                    <img style="height: 13rem;" class="card-img" src="./assets/img/burguerConPapas.jpg"
+                        alt="Card image">
+                    <div class="service-work-vertical card-img-overlay d-flex align-items-end">
+                        <div class="service-work-content text-left text-light">
+                            <!--  <span class="btn btn-outline-light rounded-pill mb-lg-3 px-lg-4 light-300">Redes Sociales</span> 
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing</p>
+                        </div>
+                    </div>
+                </a>
+            </div> -->
+            <!-- End Recent Work -->
+
+            <!-- Start Recent Work -->
+           <!--  <div class="col-xl-3 col-md-4 col-sm-6 project hamburguesa">
+                <a href="#" class="service-work card border-0 text-white shadow-sm overflow-hidden mx-5 m-sm-0">
+                    <img class="card-img" src="./assets/img/burguerConPapasYAgua.jpg" alt="Card image">
+                    <div class="service-work-vertical card-img-overlay d-flex align-items-end">
+                        <div class="service-work-content text-left text-light">
+                            <!--  <span class="btn btn-outline-light rounded-pill mb-lg-3 px-lg-4 light-300">Marketing</span> 
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing</p>
+                        </div>
+                    </div>
+                </a>
+            </div> -->
+            <!-- End Recent Work -->
+
+            <!-- Start Recent Work -->
+<!--             <div class="col-xl-3 col-md-4 col-sm-6 project parrilla">
+                <a href="#" class="service-work card border-0 text-white shadow-sm overflow-hidden mx-5 m-sm-0">
+                    <img class="card-img" src="./assets/img/choripan.jpg" alt="Card image">
+                    <div class="service-work-vertical card-img-overlay d-flex align-items-end">
+                        <div class="service-work-content text-left text-light">
+                            <!--       <span class="btn btn-outline-light rounded-pill mb-lg-3 px-lg-4 light-300">Gráfica</span> 
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing</p>
+                        </div>
+                    </div>
+                </a>
+            </div> -->
+            <!-- End Recent Work -->
+
+            <!-- Start Recent Work -->
+          <!--   <div class="col-xl-3 col-md-4 col-sm-6 project parrilla">
+                <a href="#" class="service-work card border-0 text-white shadow-sm overflow-hidden mx-5 m-sm-0">
+                    <img class="card-img" src="./assets/img/costillarGrande.jpg" alt="Card image">
+                    <div class="service-work-vertical card-img-overlay d-flex align-items-end">
+                        <div class="service-work-content text-left text-light">
+                            <!--   <span class="btn btn-outline-light rounded-pill mb-lg-3 px-lg-4 light-300">Marketing Digital</span> 
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing</p>
+                        </div>
+                    </div>
+                </a>
+            </div> -->
+            <!-- End Recent Work -->
+
+            <!-- Start Recent Work -->
+<!--             <div class="col-xl-3 col-md-4 col-sm-6 project hamburguesa">
+                <a href="#" class="service-work card border-0 text-white shadow-sm overflow-hidden mx-5 m-sm-0">
+                    <img style="height: 13.5rem;" class="card-img" src="./assets/img/dosHamburguer.jpg"
+                        alt="Card image">
+                    <div class="service-work-vertical card-img-overlay d-flex align-items-end">
+                        <div class="service-work-content text-left text-light">
+                            <!--     <span class="btn btn-outline-light rounded-pill mb-lg-3 px-lg-4 light-300">Branding</span>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing</p>
+                        </div>
+                    </div>
+                </a>
+            </div> -->
+            <!-- End Recent Work -->
+
+            <!-- Start Recent Work -->
+<!--             <div class="col-xl-3 col-md-4 col-sm-6 project pasta">
+                <a href="#" class="service-work card border-0 text-white shadow-sm overflow-hidden mx-5 m-sm-0">
+                    <img style="height: 13.5rem;" class="card-img" src="./assets/img/fetuchini.jpg" alt="Card image">
+                    <div class="service-work-vertical card-img-overlay d-flex align-items-end">
+                        <div class="service-work-content text-left text-light">
+                            <!--  <span class="btn btn-outline-light rounded-pill mb-lg-3 px-lg-4 light-300">Negocios</span> 
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing</p>
+                        </div>
+                    </div>
+                </a>
+            </div> -->
+            <!-- End Recent Work -->
+
+            <!-- Start Recent Work -->
+<!--             <div class="col-xl-3 col-md-4 col-sm-6 project parrilla">
+                <a href="#" class="service-work card border-0 text-white shadow-sm overflow-hidden mx-5 m-sm-0">
+                    <img style="height: 13.5rem;" class="card-img" src="./assets/img/parrillaCircular.jpg"
+                        alt="Card image">
+                    <div class="service-work-vertical card-img-overlay d-flex align-items-end">
+                        <div class="service-work-content text-left text-light">
+                            <!--     <span class="btn btn-outline-light rounded-pill mb-lg-3 px-lg-4 light-300">Branding</span> 
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing</p>
+                        </div>
+                    </div>
+                </a>
+            </div> -->
+            <!-- End Recent Work -->
+            <!-- Start Recent Work -->
+<!--             <div class="col-xl-3 col-md-4 col-sm-6 project pasta">
+                <a href="#" class="service-work card border-0 text-white shadow-sm overflow-hidden mx-5 m-sm-0">
+                    <img style="height: 13.5rem;" class="card-img" src="./assets/img/pastaConLangostinos.jpg"
+                        alt="Card image">
+                    <div class="service-work-vertical card-img-overlay d-flex align-items-end">
+                        <div class="service-work-content text-left text-light">
+                            <!--    <span class="btn btn-outline-light rounded-pill mb-lg-3 px-lg-4 light-300">Branding</span> 
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing</p>
+                        </div>
+                    </div>
+                </a>
+            </div> -->
+            <!-- End Recent Work -->
+            <!-- Start Recent Work -->
+<!--             <div class="col-xl-3 col-md-4 col-sm-6 project pasta">
+                <a href="#" class="service-work card border-0 text-white shadow-sm overflow-hidden mx-5 m-sm-0">
+                    <img style="height: 13.5rem;" class="card-img" src="./assets/img/pastaConSalsaRoja.jpg"
+                        alt="Card image">
+                    <div class="service-work-vertical card-img-overlay d-flex align-items-end">
+                        <div class="service-work-content text-left text-light">
+                            <!--     <span class="btn btn-outline-light rounded-pill mb-lg-3 px-lg-4 light-300">Branding</span> 
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing</p>
+                        </div>
+                    </div>
+                </a>
+            </div> -->
+            
+            <!-- End Recent Work -->
+            <!-- Start Recent Work -->
+        <!--     <div class="col-xl-3 col-md-4 col-sm-6 project pasta">
+                <a href="#" class="service-work card border-0 text-white shadow-sm overflow-hidden mx-5 m-sm-0">
+                    <img style="height: 13.5rem;" class="card-img" src="./assets/img/pastas.jpg" alt="Card image">
+                    <div class="service-work-vertical card-img-overlay d-flex align-items-end">
+                        <div class="service-work-content text-left text-light">
+                            <!--   <span class="btn btn-outline-light rounded-pill mb-lg-3 px-lg-4 light-300">Branding</span> 
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing</p>
+                        </div>
+                    </div>
+                </a>
+            </div> -->
+            <!-- End Recent Work -->
+            <!-- Start Recent Work -->
+         <!--    <div class="col-xl-3 col-md-4 col-sm-6 project parrilla">
+                <a href="#" class="service-work card border-0 text-white shadow-sm overflow-hidden mx-5 m-sm-0">
+                    <img style="height: 13.5rem;" class="card-img" src="./assets/img/platoCostillas.jpg"
+                        alt="Card image">
+                    <div class="service-work-vertical card-img-overlay d-flex align-items-end">
+                        <div class="service-work-content text-left text-light">
+                            <!--    <span class="btn btn-outline-light rounded-pill mb-lg-3 px-lg-4 light-300">Branding</span>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing</p>
+                        </div>
+                    </div>
+                </a>
+            </div> -->
+            <!-- End Recent Work -->
+            <!-- Start Recent Work -->
+           <!--  <div class="col-xl-3 col-md-4 col-sm-6 project parrilla">
+                <a href="#" class="service-work card border-0 text-white shadow-sm overflow-hidden mx-5 m-sm-0">
+                    <img style="height: 13.5rem;" class="card-img" src="./assets/img/polloAlCarbon.jpg"
+                        alt="Card image">
+                    <div class="service-work-vertical card-img-overlay d-flex align-items-end">
+                        <div class="service-work-content text-left text-light">
+                            <!--  <span class="btn btn-outline-light rounded-pill mb-lg-3 px-lg-4 light-300">Branding</span> 
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing</p>
+                        </div>
+                    </div>
+                </a>
+            </div> -->
+            <!-- End Recent Work -->
+            <!-- Start Recent Work -->
+            <!-- <div class="col-xl-3 col-md-4 col-sm-6 project hamburguesa">
+                <a href="#" class="service-work card border-0 text-white shadow-sm overflow-hidden mx-5 m-sm-0">
+                    <img style="height: 13.5rem;" class="card-img" src="./assets/img/tablaBurguer3.jpg"
+                        alt="Card image">
+                    <div class="service-work-vertical card-img-overlay d-flex align-items-end">
+                        <div class="service-work-content text-left text-light">
+                            <!--   <span class="btn btn-outline-light rounded-pill mb-lg-3 px-lg-4 light-300">Branding</span> 
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing</p>
+                        </div>
+                    </div>
+                </a>
+            </div> -->
+            <!-- End Recent Work -->
+            <!-- Start Recent Work -->
+           <!--  <div class="col-xl-3 col-md-4 col-sm-6 project parrilla">
+                <a href="#" class="service-work card border-0 text-white shadow-sm overflow-hidden mx-5 m-sm-0">
+                    <img style="height: 13.5rem;" class="card-img" src="./assets/img/choriConPure.jpg" alt="Card image">
+                    <div class="service-work-vertical card-img-overlay d-flex align-items-end">
+                        <div class="service-work-content text-left text-light">
+                            <!--  <span class="btn btn-outline-light rounded-pill mb-lg-3 px-lg-4 light-300">Branding</span> 
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing</p>
+                        </div>
+                    </div>
+                </a>
+            </div> -->
+            <!-- End Recent Work -->
+            <!-- Start Recent Work -->
+            <!-- <div class="col-xl-3 col-md-4 col-sm-6 project parrilla">
+                <a href="#" class="service-work card border-0 text-white shadow-sm overflow-hidden mx-5 m-sm-0">
+                    <img style="height: 13.5rem;" class="card-img" src="./assets/img/panchoTriple.jpg" alt="Card image">
+                    <div class="service-work-vertical card-img-overlay d-flex align-items-end">
+                        <div class="service-work-content text-left text-light">
+                            <!--  <span class="btn btn-outline-light rounded-pill mb-lg-3 px-lg-4 light-300">Branding</span> 
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing</p>
+                        </div>
+                    </div>
+                </a>
+            </div -->>
+            <!-- End Recent Work 
+        </div>
+    </section>-->
+    <!-- End Service -->
+    <!-- Start View Work -->
+    <section id="bg-mitadPag">
+        <div class="container py-5">
+            <div class="row d-flex justify-content-center text-center">
+                <div class="col-lg-4 col-12 text-info pt-2">
+                   <!--  <h2 class="light-300">NUESTRO TRABAJOS</h2> -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End View Work -->
+
+    <!-- Start Recent Work -->
+    <section class="mb-5">
+        <div class="container mt-5">
+            <div id="section-cards" class="row gy-5 g-lg-5 mb-4">
+                <!-- Start Recent Work -->
+                <!-- se carga cards en js  -->
+                <!-- End Recent Work -->
+            </div>
+        </div>
+    </section>
+    <!-- End Recent Work -->
+
+    <!-- Start Footer -->
+    <footer class="pt-4" id='footer'>
+        <div class="container">
+            <div class="row py-4">
+                <div class="col-lg-5 col-12 align-left">
+                    <a class="navbar-brand" href="index.html">
+                        <i class='bx bx-buildings bx-sm text-light'></i>
+                        <span class="text-light h5">Sabor-</span><span
+                            class="text-light h5 semi-bold-600">Chalaco</span>
+                    </a>
+                    <p class="text-light my-lg-4 my-2">
+                        La mejor gastronomía peruana en Argentina, desde los infaltables desayunos hasta las
+                        mejores delicias de nuestro hermoso Perú.
+                    </p>
+                    <ul class="list-inline footer-icons light-300">
+                        <!-- <li class="list-inline-item m-0">
+                            <a class="text-light" target="_blank" href="http://facebook.com/">
+                                <i class='bx bxl-facebook-square bx-md'></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item m-0">
+                            <a class="text-light" target="_blank" href="https://www.whatsapp.com/">
+                                <i class='bx bxl-whatsapp-square bx-md'></i>
+                            </a>
+                        </li> -->
+                    </ul>
+                </div>
+
+                <!--  <div class="col-lg-3 col-md-4 my-sm-0 mt-4">
+                    <h3 class="h4 pb-lg-3 text-light light-300">Nuestro Estudio</h2>
+                        <ul class="list-unstyled text-light light-300">
+                            <li class="pb-2">
+                                <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light" 
+								href="index.html">Home</a>
+                            </li>
+                            <li class="pb-2">
+                                <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" 
+								href="about.html">Nosotros</a>
+                            </li>
+                            <li class="pb-2">
+                                <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" 
+								href="work.html">Trabajos</a>
+                            </li>
+                            <li class="pb-2">
+                                <i class='bx-fw bx bxs-chevron-right bx-xs'></i></i><a class="text-decoration-none text-light py-1" 
+								href="pricing.html">Precios</a>
+                            </li>
+                            <li class="pb-2">
+                                <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" 
+								href="contact.html">Contáctanos</a>
+                            </li>
+                        </ul>
+                </div> -->
+
+                <div class="col-lg-3 col-md-3 my-sm-0 mt-4">
+                    <!-- <h2 class="h4 pb-lg-3 text-light light-300">Trabajos</h2>
+                    <ul class="list-unstyled text-light light-300">
+                        <li class="pb-2">
+                            <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" 
+							href="#">Presentación</a>
+                        </li>
+                        <li class="pb-2">
+                            <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" 
+							href="#">Negocios</a>
+                        </li>
+                        <li class="pb-2">
+                            <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" 
+							href="#">Marketing</a>
+                        </li>
+                        <li class="pb-2">
+                            <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" 
+							href="#">Redes Sociales</a>
+                        </li>
+                        <li class="pb-2">
+                            <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" 
+							href="#">Soluciones Digitales</a>
+                        </li>
+                        <li class="pb-2">
+                            <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" 
+							href="#">Gráfica</a>
+                        </li>
+                    </ul>-->
+                </div>
+
+                <div class="col-lg-2 col-md-6 my-sm-0 mt-4">
+                    <!-- <h2 class="h4 pb-lg-3 text-light light-300">Atendemos en:</h2> -->
+                    <ul class="list-unstyled text-light light-300">
+                        <li class="pb-2">
+                            <i class='bx-fw bx bx-phone bx-xs'></i><a class="text-decoration-none text-light py-1"
+                                href="tel:010-020-0340">+54 9 11 5056-4478</a>
+                        </li>
+                        <li class="list-inline-item m-0">
+                            <a class="text-light" target="_blank" href="http://facebook.com/">
+                                <i class='bx bxl-facebook-square bx-md'></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item m-0">
+                            <a class="text-light" target="_blank" href="https://www.whatsapp.com/">
+                                <i class='bx bxl-whatsapp-square bx-md'></i>
+                            </a>
+                        </li>
+                        <li class="pb-2">
+                            <i class='bx-fw bx bx-mail-send bx-xs'></i><a class="text-decoration-none text-light py-1"
+                                href="mailto:info@company.com"></a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="w-100 py-3" id="sub-Footer">
+            <div class="container">
+                <div class="row pt-2">
+                    <div class="col-lg-6 col-sm-12">
+                        <p class="text-lg-start text-center text-white">
+                            © Copyright 2021 Sabor - Chalaco. Chef Diego Acuña Surca. Todos los derechos reservados.
+                        </p>
+                    </div>
+                    <div class="col-lg-6 col-sm-12">
+                        <p class="text-lg-end text-center text-light light-300">
+                            Diseñado por <a rel="sponsored" class="text-decoration-none text-light"
+                                href="https://cursophp.com.ar/" target="_blank"><strong>Carlos Jesús -
+                                    FullStack Developer</strong></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+    <!-- End Footer -->
+
+    <script src="./src/cards.js"></script>
+    <!-- Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- <script src="assets/js/bootstrap.bundle.min.js"></script> -->
+    <!-- Load jQuery require for isotope -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- <script src="assets/js/jquery.min.js"></script> -->
+    <!-- Isotope -->
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
+    <!-- <script src="assets/js/isotope.pkgd.js"></script> -->
+    <!-- Page Script -->
+    <script>
+        $(window).load(function () {
+            // init Isotope
+            var $projects = $('.projects').isotope({
+                itemSelector: '.project',
+                layoutMode: 'fitRows'
+            });
+            $(".filter-btn").click(function () {
+                var data_filter = $(this).attr("data-filter");
+                $projects.isotope({
+                    filter: data_filter
+                });
+                $(".filter-btn").removeClass("active");
+                $(".filter-btn").removeClass("shadow");
+                $(this).addClass("active");
+                $(this).addClass("shadow");
+                return false;
+            });
+        });
+    </script>
+</body>
+</html>
